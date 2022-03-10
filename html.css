@@ -45,3 +45,22 @@ h4 {
 header img {
     min-width: 300px;
 }
+
+footer {
+    margin: 0px 0;
+    padding: 20px;
+    background-color: rgb(140, 230, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0px 10px;
+    color: black;
+    
+}
+
+a:visited {
+    color: black;
+}
