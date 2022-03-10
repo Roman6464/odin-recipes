@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.teriyaki-chicken {
+    width: 300px;
+    
+}
+
+
+body {
+    background-color: #dbdd53;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    border-radius: 40px;
+}
