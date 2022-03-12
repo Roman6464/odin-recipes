@@ -64,3 +64,18 @@ footer p {
 a:visited {
     color: black;
 }
+
+
+.navbar-one {
+    display: flex;
+    background-color: #bac225;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar-one li {
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}

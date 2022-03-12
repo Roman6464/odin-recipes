@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.navbar-one {
+    display: flex;
+    background-color: #bac225;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar-one li {
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+
+div.note{
+    background-color: yellow;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+div.container {
+    background-color: blue;
+}
+
+
+
