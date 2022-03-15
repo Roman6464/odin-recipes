@@ -98,6 +98,8 @@ a:visited {
     display: flex;
     margin: 10px;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nava {
@@ -105,11 +107,15 @@ a:visited {
     justify-content: space-between;
     align-items: center;
     background-color:  #dbdd53;
-    
+    border-bottom: 2px solid gray;
     
 }
 
 
 .logo span {
     color: white;
+}
+
+header {
+    margin-top: 10px;
 }
