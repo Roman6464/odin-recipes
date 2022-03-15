@@ -3,13 +3,16 @@
     margin: 0%;
 }
 
-
+body {
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+}
 
 .navbar-one {
     display: flex;
-    background-color: #bac225;
+    background-color: inear-gradient(180deg, #FFEEEE, #DDEFBB);
     list-style: none;
     justify-content: space-around;
+    border-bottom: 3px solid rgb(53, 55, 50);
 }
 
 .navbar-one li {
@@ -19,20 +22,38 @@
     
 }
 
-div.note{
-    background-color: yellow;
-    width: 500px;
+div.note-card {
+    width: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: rgb(222, 222, 177);
+    border: 5px solid rgb(140, 154, 121);
+    border-radius: 30px;
     align-items: center;
+}
 
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container ul {
+    padding: 20px;
     
 }
 
-div.container {
-    background-color: blue;
+.container p {
+    padding: 20px;
+    line-height: 30px;
 }
 
+.container li {
+    padding: 10px;
+}
 
+.container ol { 
+    padding: 20px;
+}
 
