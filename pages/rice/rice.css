@@ -1,0 +1,94 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+}
+
+.navbar-one {
+    display: flex;
+    background-color: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    list-style: none;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(53, 55, 50);
+    
+}
+
+.navbar-one li {
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+
+div.note-card {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 222, 177);
+    border: 5px solid rgb(140, 154, 121);
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container ul {
+    padding: 20px;
+    margin-left: 10px;
+    
+}
+
+.container p {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.container li {
+    padding: 10px;
+
+}
+
+.container ol { 
+    padding: 20px;
+    margin-left: 10px;
+}
+
+
+footer {
+    margin: 0px 0;
+    padding: 20px;
+    background-color:linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0px 10px;
+    color: black;
+    
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+ul li a:hover {
+    color: purple;
+    transition: 0.3s;
+}
